@@ -43,3 +43,5 @@ if(MSVC)
       file(COPY ${lib_path} DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
    endforeach()
 endif(MSVC)
+
+install(TARGETS ${PROJECT_NAME} DESTINATION bin)
